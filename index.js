@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Node.js CI/CD pipeline is working!");
+  res.send("Node.js CI/CD pipeline is working!...");
 });
 
 module.exports = app;
